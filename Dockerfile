@@ -5,4 +5,5 @@ COPY . /app
 
 RUN mkdir /usr/src/sock
 
+RUN pip install uwsgi
 RUN pip install -r /app/requirements.txt
